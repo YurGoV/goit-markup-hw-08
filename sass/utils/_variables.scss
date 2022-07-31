@@ -1,0 +1,32 @@
+
+:root {
+    /* text colors */
+    --main-dark: #212121;
+    --main-grey: #757575;
+    --hover-focus: #2196F3;
+
+    /* bg-colors */
+    --header-footer: #2F303A;
+    --comm-social-link: #AFB1B8;
+    /* --color1: red; */
+
+    /* others */
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+
+    --light-color: #F5F4FA;
+    --primary-color: #2196F3;
+    --secondary-color: #2F303A;
+    --white-color: #ffffff;
+    --blue-color: #188CE8;
+
+
+    /* для сітки% */
+    /* кількість карток в рядку */
+    --items: 3;
+    /* відступи між картками */
+    --indent: 30px;
+    /* анімація переходів */
+    --transitions-anime: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+}
