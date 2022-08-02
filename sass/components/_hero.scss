@@ -1,5 +1,7 @@
 .solution {
+    // display: block;  
     text-align: center;
+    // justify-content: center;
     max-width: 1600px;
     padding: 200px 0;
     margin: 0 auto;
@@ -16,8 +18,13 @@
             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mainpage/hero-bg-img-sm@2x.jpg);
     }
 
+@media screen and (max-width: 767px) {
+    padding: 118px 0;
+}
+
 @media screen and (min-width: 768px) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mainpage/hero-bg-img-md.jpg);
+        padding: 118px 0;
 
 @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
@@ -29,6 +36,7 @@
     
     @media screen and (min-width: 1200px) {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mainpage/hero-bg-img.jpg);
+        padding: 200px 0;
 
 @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
@@ -39,7 +47,14 @@
 }
 }
 
+// .solution .container {
+//     justify-content: center;
+// }
+
 .solution--title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -49,10 +64,18 @@
     text-transform: uppercase;
     color: var(--white-color);
 
+    @media screen and (max-width: 767px) {
+        width: 360px;
+    }
+    @media screen and (min-width: 768px) {
+        width: 360px;
+    }
     @media screen and (min-width: 1200px) {
         font-size: 44px;
         line-height: 1.36;
+        width: 696px;
     }
+
 }
 
 .solution__btn {
@@ -64,7 +87,7 @@
     min-width: 200px;
     border: 0 solid;
     border-radius: 4px;
-    font-family: inherit;
+    font-family: "Roboto";
     background-color: var(--primary-color);
     font-weight: 700;
     font-size: 16px;
@@ -173,6 +196,10 @@
     @media screen and (min-width: 1200px) {
         line-height: 1.15;
     }
+}
+.form {
+    display: flex;
+    flex-direction: column; 
 }
 
 .form__title {

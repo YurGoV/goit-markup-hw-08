@@ -7,7 +7,7 @@
     @media screen and (min-width: 1200px) {
     & .container {
         display: flex;
-        align-items: baseline;
+        align-items: flex-start;
         text-align: left;
     }
 }
@@ -18,18 +18,18 @@
     display: flex;
     gap: 30px 165px;
     justify-content: center;
+    
 }
 }
 @media screen and (min-width: 1200px) {
 .footer__flex {
     gap: 70px;
-    align-items: baseline;
+    align-items: flex-start;
 }
 }
 
 .footer--address {
-    margin-bottom: 60px;
-
+    // margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@
 }
 
 .footer--wellcome {
-    margin-bottom: 60px;
+    padding-top: 12px;
 }
     
 
@@ -87,6 +87,7 @@
     text-transform: uppercase;
     color: var(--white-color);
 }
+
 
 .footer--sociallist {
     display: flex;
@@ -120,6 +121,7 @@
 
     .footer--subscribe {
                 margin-left: auto;
+                padding-top: 12px;
             }
         
     .footer--subscribe__form {
