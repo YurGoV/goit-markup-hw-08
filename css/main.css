@@ -1549,7 +1549,21 @@ summary {
 }
 
 .footer--wellcome {
-  padding-top: 12px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer--wellcome {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer--wellcome {
+    padding-top: 12px;
+  }
+}
+
+.footer--subscribe {
+  padding-top: 60px;
 }
 
 .footer--wellcome__title {
